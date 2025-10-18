@@ -8,6 +8,7 @@ import SelectLocation from './../screens/auth/SelectLocation';
 import ForgotPassword from './../screens/auth/ForgotPassword';
 import EmailVerification from './../screens/auth/EmailVerification';
 import NewPassword from './../screens/auth/NewPassword';
+import PriceRange from '../screens/main/Home/PriceRange';
 
 const Stack = createStackNavigator();
 const Auth = () => {
@@ -24,6 +25,7 @@ const Auth = () => {
       <Stack.Screen name="EmailVerification" component={EmailVerification} />
       <Stack.Screen name="NewPassword" component={NewPassword} />
       <Stack.Screen name="SelectLocation" component={SelectLocation} />
+      <Stack.Screen name="PriceRange" component={PriceRange} />
     </Stack.Navigator>
   );
 };

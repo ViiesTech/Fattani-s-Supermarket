@@ -36,6 +36,9 @@ type props = {
   inputContainerPaddingHorizontal?: any;
   elevation?: any;
   keyboardType?: any;
+  editable?: any;
+  borderBottomWidth?:any;
+  borderBottomColor?:any;
 };
 const AppTextInput = ({
   logo,
@@ -64,6 +67,9 @@ const AppTextInput = ({
   inputContainerPaddingHorizontal,
   elevation,
   keyboardType,
+  editable,
+  borderBottomWidth,
+  borderBottomColor,
 }: props) => {
   return (
     <View
@@ -82,6 +88,8 @@ const AppTextInput = ({
           ? AppColors.ThemeColor
           : borderColor || AppColors.WHITE,
           elevation: elevation,
+          borderBottomWidth: borderBottomWidth,
+          borderBottomColor: borderBottomColor
       }}>
       {logo}
 
@@ -110,6 +118,7 @@ const AppTextInput = ({
         multiline={multiline}
         onFocus={onFocus}
         onBlur={onBlur}
+        editable={editable}
       />
       {rightIcon}
     </View>

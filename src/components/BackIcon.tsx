@@ -7,9 +7,10 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 type Props = {
     onPress?: any;
     icon?: any;
+    iconColor?: any;
 }
 
-const BackIcon = ({ onPress, icon }: Props) => {
+const BackIcon = ({ onPress, icon, iconColor }: Props) => {
     return (
         <TouchableOpacity
             // style={{
@@ -26,7 +27,7 @@ const BackIcon = ({ onPress, icon }: Props) => {
             {icon ? icon : <Ionicons
                 name="arrow-back"
                 size={responsiveFontSize(3)}
-                color={AppColors.WHITE}
+                color={iconColor ? iconColor : AppColors.WHITE}
             />}
         </TouchableOpacity>
     )

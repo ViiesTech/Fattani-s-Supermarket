@@ -123,7 +123,7 @@ const SignUp = () => {
               title="Signup"
               btnBackgroundColor={AppColors.darkGreen}
               textColor={AppColors.WHITE}
-              // handlePress={() => nav.navigate('Home')} // uncomment for navigation
+              handlePress={() => nav.navigate('SelectLocation')}
             />
 
             <LineBreak space={2} />

@@ -155,7 +155,7 @@ const Login = () => {
               title="Login"
               btnBackgroundColor={AppColors.darkGreen}
               textColor={AppColors.WHITE}
-              // handlePress={() => nav.navigate('Home')} // uncomment for navigation
+              handlePress={() => nav.navigate('PriceRange')} 
             />
 
             <LineBreak space={2} />

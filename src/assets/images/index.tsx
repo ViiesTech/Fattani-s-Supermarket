@@ -34,4 +34,5 @@ export const AppImages = {
     cart_three: require('./cart_three.png'),
     cart_four: require('./cart_four.png'),
     checkout: require('./checkout.png'),
+    no_order: require('./no_order.png'),
 }

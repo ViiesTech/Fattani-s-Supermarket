@@ -50,7 +50,7 @@ const data = [
     title: 'Notifications',
     navTo: 'Notification',
   },
-  { id: 10, icon: AppIcons.logout, title: 'Log out', navTo: '' },
+  { id: 10, icon: AppIcons.logout, title: 'Log out', navTo: 'Auth' },
 ];
 
 const Profile = () => {
@@ -59,7 +59,6 @@ const Profile = () => {
     <Container
       safeAreaViewStyle={{
         backgroundColor: 'transparent',
-        marginBottom: responsiveHeight(-6),
       }}
     >
       <View style={{ paddingHorizontal: responsiveWidth(5) }}>

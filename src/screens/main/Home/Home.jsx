@@ -94,7 +94,6 @@ const Home = () => {
     <Container
       safeAreaViewStyle={{
         backgroundColor: 'transparent',
-        marginBottom: responsiveHeight(-6),
       }}
     >
       <View style={{ paddingHorizontal: responsiveWidth(5) }}>

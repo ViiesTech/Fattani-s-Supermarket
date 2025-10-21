@@ -66,7 +66,8 @@ function MyTabs() {
           display: 'none',
         },
         tabBarStyle: {
-          height: responsiveHeight(12),
+          // height: responsiveHeight(12),
+          height:70,
           paddingTop: responsiveHeight(1.8),
           backgroundColor: '#FAFAFA',
         },
